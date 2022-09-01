@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet" />
+    <script defer src="https://cdn.tuk.dev/dev/light-dark-switch.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Ibarra+Real+Nova&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Barefoot Adventures</title>
+</head>
+<body>
+    <nav class="bg-white border">
+        <div class="pt-12 lg:pt-0 xl:pt-0 2xl:pt-0 pb-12 lg:pb-0 xl:pb-0 2xl:pb-0 ">
+          <button onclick="toggleMenu(true)" class="flex-col rounded-md ease-in-out transition duration-500 sm:block md:block lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 bg-white ml-12 bg-white bg:hover:gray-200 ">
+            
+              <img class="h-8 w-8" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg4.svg" alt="show"/>
+    
+          </button>
+          <div id="menu" class=" lg:block hidden">
+              <button onclick="toggleMenu(false)" class="rounded-md top-12 absolute ease-in-out transition duration-500 block lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 bg-white md:bg-white z-30 left-12">
+                  <img class="h-8 w-8" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg5.svg" alt="hide"/>
+              </button>
+              <div class="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row gap-2 justify-between lg:gap-24 xl:gap-24 2xl:gap-24 pt-8 pb-8 mx-12">
+                <div>
+                    <img class="h-8 w-5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector%20%284%29.svg">
+                </div>
+                
+                <div class="flex gap-8">
+                    <div class="pt-3">
+                        <a href="#about-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Home</a>
+                     </div>
+                     <div class="pt-3">
+                       <a href="#services-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Explore</a>
+                     </div>
+                     <div class="pt-3">
+                       <a href="#contact-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Packages</a>
+                     </div>
+                     <div class="pt-3">
+                        <a href="#contact-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Timeline</a>
+                      </div>
+                      <div class="pt-3">
+                        <a href="#contact-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">About</a>
+                      </div>
+                      <div class="pt-3">
+                        <a href="#contact-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Contact</a>
+                      </div>
+                      <div class="pt-3">
+                        <a href="#contact-section" class="font-['Work+Sans'] text-black text-base cursor-pointer mt-3 font-semi-bold">Register</a>
+                      </div>
+                </div>
+                
+              </div>
+            </div>
+          </nav>  
+
+        <div class="pt-24 px-24">
+            <div class="xl:container xl:mx-auto ">
+                <div class=" flex flex-col md:flex-row items-strech justify-center">
+                    <div class="md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-ml-12 lg:-ml-16 md:py-24 lg:py-6 relative z-10 mx-4 md:mx-0">
+                        <div class="lg:pl-64 md:pl-24 sm:pl-1 xl:mt-40">
+                        <p class=" md:text-6xl lg:text-8xl lg:mt-24 md:mt-0 sm:text-4xl font-normal font-['Work+Sans'] font-semibold lg:font-bold text-gray-900" >BAREFOOTE ADVENTURES</p>
+                        <p class="text-base lg:w-5/12 md:4/12 sm:4/12 leading-normal font-normal font-['Work+Sans'] text-gray-800 lg:mt-4 md:mt-1">A travel agency is a tourism-related services to the general public to offer different kinds of travelling packages for each destination.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-3/5 md:h-3/6 lg:w-7/12 lg:h-3/6 relative">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_HNip-HjxrpQ.png" alt="A typewriter" role="img" class="absolute inset-0 object-center">
+                    </div>  
+                </div>
+            </div>
+        </div>
+          
+        <div class="px-24 container-2xl font-['Work+Sans']">
+            <div class="xl:mx-auto xl:pt-40 lg:pt-20 xl:container">
+                <div class="lg:flex md:flex-row sm:flex-col items-strech justify-center">
+                    <div class="lg:flex-col md:flex-col sm:flex-col md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-ml-12 lg:-ml-16 md:py-24 lg:py-36 relative z-10 mx-4 md:mx-0">
+                        <div class="">
+                        <p class="md:text-6xl lg:text-8xl sm:text-4xl lg:mt-24 md:mt-0 sm:text-4xl font-normal font-['Work+Sans'] font-semibold lg:font-bold text-gray-900" >TIMELINE</p>
+                        </div>
+                        <button class="text-base lg:px-10 px-6 py-6 bg-gray-900 mt-24 text-white font-semibold font-['Work+Sans'] border border-1 border-black lg:ml-4 lg:mt-24 ml-0 hover:bg-gray-200 focus:bg-gray-300 hover:text-black focus:text-black transition duration-300">
+                            Book Now
+                        </button>
+                    </div>
+                    <div class="h-1/2 w-1/2 bg-gray-200 my-40 mx-8">
+                        <div>
+                            <div class="flex justify-between px-10 py-10 border-gray-500 border-b">
+                                <h1 class="lg:text-5xl md:text-4xl sm:text-3xl border-bottom text-gray-900 ">
+                                    Trip to Greece
+                                </h1>
+                                <h1 class="lg:text-2xl md:text-xl sm:text-xl border-bottom text-gray-800 ">
+                                    10 Days
+                                </h1>
+                            </div>
+
+                            <div class="flex justify-between px-10 py-10 border-gray-500 border-b">
+                                <div class="flex-col">
+                                    <h1 class="lg:text-2xl font-medium md:text-2xl sm:text-xl text-gray-700 ">
+                                        Batch 1
+                                    </h1>
+                                    <p class="text-gray-900 font-normal lg:text-2xl md:text-2xl sm:text-xl pt-6">
+                                        August 1, 2022
+                                    </p>
+                                </div>
+                            
+                                <h1 class="lg:text-base md:text-base sm:text-base text-base text-gray-700 font-normal">
+                                    Slots filled
+                                </h1>
+                            </div>
+
+                            <div class="flex justify-between px-10 py-10 border-gray-500 border-b">
+                                <div class="flex-col">
+                                    <h1 class="lg:text-2xl font-medium md:text-2xl sm:text-xl text-gray-700 ">
+                                        Batch 2
+                                    </h1>
+                                    <p class="text-gray-900 font-normal lg:text-2xl md:text-2xl sm:text-xl pt-6">
+                                        August 15, 2022
+                                    </p>
+                                </div>
+                            
+                                <h1 class="lg:text-base md:text-base sm:text-base text-base text-gray-700 font-normal">
+                                    Slots Available
+                                </h1>
+                            </div>
+
+                             <div class="flex justify-between px-10 py-10 border-gray-500 border-b">
+                                <div class="flex-col">
+                                    <h1 class="lg:text-2xl font-medium md:text-2xl sm:text-xl text-gray-700 ">
+                                        Batch 3
+                                    </h1>
+                                    <p class="text-gray-900 font-normal lg:text-2xl md:text-2xl sm:text-xl pt-6">
+                                        August 25, 2022
+                                    </p>
+                                </div>
+                            
+                                <h1 class="lg:text-base md:text-base sm:text-base text-base text-gray-700 font-normal">
+                                    Slots Available
+                                </h1>
+                            </div>
+
+                            <div class="flex justify-between px-10 py-10">
+                                <div class="flex-col">
+                                    <h1 class="lg:text-2xl font-medium md:text-2xl sm:text-xl text-gray-700 ">
+                                        Batch 4
+                                    </h1>
+                                    <p class="text-gray-900 font-normal lg:text-2xl md:text-2xl sm:text-xl pt-6">
+                                        September 1, 2022
+                                    </p>
+                                </div>
+                            
+                                <h1 class="lg:text-base md:text-base sm:text-base text-base text-gray-700 font-normal">
+                                    Slots Available
+                                </h1>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="container mx-auto mt-12 mb-56 font-['Work+Sans']">
+                <div class="flex gap-7">
+                    <div class="w-11/12">
+                        <div class="flex lg:flex-row md:flex-row sm:flex-col  gap-5">
+                            <div class=" flex flex-col w-11/12 p-3 ">
+                                <div class="mt-12 border border-gray-200 p-5">
+                                    <h1 class="text-8xl text-gray-700 font-bold p-8">1.</h1>
+                                    <h1 class="text-5xl px-8 font-semibold">Tell us what you want</h1>
+                                    <h1 class="font-semibold px-8 pb-8 text-2xl mt-8 text-gray-600">Fill out a form sharing all details about your likes and dislikes</h1>
+                                </div>
+                                <div class="mt-12 border border-gray-200 p-5">
+                                    <h1 class="text-8xl text-gray-700 font-bold p-8">2.</h1>
+                                    <h1 class="text-5xl px-8 font-semibold">Share your plan with us</h1>
+                                    <h1 class="font-semibold px-8 pb-8 text-2xl mt-8 text-gray-600">Share all details including days and number of people.</h1>
+                                </div>
+                            </div>
+
+                            <div class="w-11/12 flex flex-col p-3 mt-16">
+                                <div class="mt-12 border border-gray-200 p-5">
+                                    <h1 class="text-8xl text-gray-700 font-bold p-8">3.</h1>
+                                    <h1 class="text-5xl px-8 font-semibold">Finalize the plan we gave</h1>
+                                    <h1 class="font-semibold px-8 pb-8 text-2xl mt-8 text-gray-600">Alter the plan we provided according to your details.</h1>
+                                </div>
+                                <div class="mt-12 border border-gray-200 p-5">
+                                    <h1 class="text-8xl text-gray-700 font-bold p-8">4.</h1>
+                                    <h1 class="text-5xl px-8 font-semibold">Have fun on your trip</h1>
+                                    <h1 class="font-semibold px-8 pb-8 text-2xl mt-8 text-gray-600">Alter the plan we provided according to your details.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="w-4/12">
+                    <div class="mt-48">
+                        <h1 class="font-bold text-8xl text-right xl:pt-36 lg:pr-10 md:pr-4 sm:pr-1 ">MAKE YOUR OWN TRIP</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="container flex lg:flex-row md:flex-col sm:flex-col gap-12 mt-12 mb-12 mx-auto px-20 font-['Work+Sans']">
+            <div class="w-9/12">
+                <h1 class="text-8xl font-bold text-left lg:mt-0 md:mt-10 sm:mt-4 xl:mt-44">POPULAR PLACES</h1>
+            </div>
+            <div class="w-11/12 relative flex-col">
+                <Image class="" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_2czy17jLM_0.png" width={733} height={600}/>
+                <h1 class="absolute px-10 bottom-36 text-white font-semibold lg:text-7xl md:text-6xl lg:pb-10 md:pb-16 sm:pb-28 sm:text-4xl">NORWAY</h1>
+                <h1 class="absolute bottom-0 text-white text-2xl px-10 py-10 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-9/12 md:text-xl sm:text-base">Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums.</h1>
+            </div>
+        </div>
+
+
+        <div class="container flex lg:flex-row md:flex-col sm:flex-col gap-12 mt-12 mb-12 mx-auto px-20 font-['Work+Sans'] ">
+            <div class="w-11/12 relative flex-col">
+                <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_gW3ddTAKTJg.png" width={733} height={600}/>
+                <h1 class="absolute px-10 bottom-36 text-white font-semibold lg:text-7xl md:text-6xl lg:pb-10 md:pb-16 sm:pb-28 sm:text-4xl">SWITZERLAND</h1>
+                <h1 class="absolute bottom-0 text-white text-2xl px-10 py-10 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-9/12 md:text-xl sm:text-base">Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums.</h1>
+            </div>
+            <div class="w-9/12">
+                <h1 class="text-8xl font-bold text-rightlg:mt-0 md:mt-10 sm:mt-4 xl:mt-44">TO GO AND LIVE</h1>
+            </div>
+        </div>
+            
+
+        <div class="container flex lg:flex-row md:flex-col sm:flex-col gap-12 mt-12 mb-12 mx-auto px-20 font-['Work+Sans']">
+            <div class="w-9/12">
+                <h1 class="text-8xl font-bold text-left lg:mt-0 md:mt-10 sm:mt-4 xl:mt-44">TO HAVE FUN</h1>
+            </div>
+            <div class="w-11/12 relative flex-col">
+                <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_PgHc0Ka1E0A.png" width={733} height={600}/>
+                <h1 class="absolute px-10 bottom-36 text-white font-semibold lg:text-7xl md:text-6xl lg:pb-10 md:pb-16 sm:pb-28 sm:text-4xl">ICELAND</h1>
+                <h1 class="absolute bottom-0 text-white text-2xl px-10 py-10 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-9/12 md:text-xl sm:text-base">Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums.</h1>
+            </div>
+        </div>
+
+
+        <div class="container flex lg:flex-row md:flex-col sm:flex-col gap-12 mt-12 mb-12 mx-auto px-20 font-['Work+Sans']">
+            <div class="w-11/12 relative flex-col">
+                <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_FSuY7d0BBmY.png" width={733} height={600}/>
+                <h1 class="absolute px-10 bottom-36 text-white font-semibold lg:text-7xl md:text-6xl lg:pb-10 md:pb-16 sm:pb-28 sm:text-4xl">DREECE</h1>
+                <h1 class="absolute bottom-0 text-white text-2xl px-10 py-10 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-9/12 md:text-xl sm:text-base">Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums.</h1>
+            </div>
+            <div class="w-9/12">
+                <h1 class="text-8xl font-bold text-right lg:mt-0 md:mt-10 sm:mt-4 xl:mt-44">TO WHICH SUNSET</h1>
+            </div>
+        </div>
+
+
+        <div class="container flex lg:flex-row md:flex-col sm:flex-col gap-12 mt-12 mb-12 mx-auto px-20 font-['Work+Sans']">
+            <div class="w-9/12">
+                <h1 class="text-8xl font-bold text-left lg:mt-0 md:mt-10 sm:mt-4 xl:mt-44">TO HAVE MOMENT OF A LIFETIME</h1>
+            </div>
+            <div class="w-11/12 relative flex-col">
+                <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_QAwciFlS1g4.png" width={733} height={600}/>
+                <h1 class="absolute px-10 bottom-36 text-white font-semibold lg:text-7xl md:text-6xl lg:pb-10 md:pb-16 sm:pb-28 sm:text-4xl">PARIS</h1>
+                <h1 class="absolute bottom-0 text-white text-2xl px-10 py-10 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-9/12 md:text-xl sm:text-base">Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums.</h1>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="container mx-auto px-20 mt-32 mb-12 font-['Work+Sans']">
+                <div class="flex gap-12 ">
+                    <div class="w-11/12">
+                        <h1 class="text-8xl font-bold mt-20">ABOUT US</h1>
+                    </div>
+                    <div class="w-10/12">
+                        <img class="h-32 w-32" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Hourglass.png">
+                        <h1 class="text-2xl font-semibold mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lectus quam, quis euismod turpis ornare quis. Morbi tincidunt erat quis eros semper dignissim. Cras risus dui, ultrices vel sem vitae, tristique hendrerit lacus. Vivamus mattis ultricies ullamcorper. Morbi at ligula sit amet risus suscipi.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="container px-20 mx-auto mt-16 mb-16 font-['Work+Sans']">
+                <div class="flex">
+                    <div class="flex gap-12 mt-8">
+                        <div class="">
+                            <h1 class="text-5xl font-semibold">10M+</h1>
+                            <h1 class="text-3xl font-semibold pt-4 text-gray-700">Visitors</h1>
+                        </div>
+                        <div class="">
+                            <h1 class="text-5xl font-semibold">1260</h1>
+                            <h1 class="text-3xl font-semibold pt-4 text-gray-700">Hotels</h1>
+                        </div>
+                        <div class="">
+                            <h1 class="text-5xl font-semibold">30K+</h1>
+                            <h1 class="text-3xl font-semibold pt-4 text-gray-700">Customers</h1>
+                        </div>
+                    </div>
+                    <div class="ml-auto flex-col">
+                        <h1 class="text-8xl font-semibold">Since</h1>
+                        <h1 class="text-8xl font-semibold">2005</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="container mx-auto pt-32 pb-32">
+                <div class=" mt-12">
+                    <h1 class="xl:text-9xl lg:text-6xl md:text-6xl sm:text-4xl font-bold lg:p-16 ">HOLIDAYS SEASON SPECIAL OFFERS</h1>
+                    <div class="flex px-16">
+                        <div>
+                            <h1 class="text-4xl font-semibold mt-12">A 20 days trip to all your favourite destinations</h1>
+                        </div>
+                        <div class="ml-auto">
+                            <img class="h-16 w-16 mt-12" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow-forward.svg">
+                        </div>
+                    </div>
+                    <div class="px-14 mt-9 flex xl:flex-row lg:flex-row md:flex-row sm:flex-col">
+                        <img class="w-72 h-64 mr-5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2049.png">
+                        <img class="w-72 h-64 mr-5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2050.png">
+                        <img class="w-72 h-64 mr-5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2051.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-blue-900 w-full ">
+                
+            </div>
+
+
+
+
+</body>
+</html>
+
+<script>
+    function toggleMenu(flag) {
+               let value = document.getElementById("menu");
+               if (flag) {
+                   value.classList.remove("hidden");
+               } else {
+                   value.classList.add("hidden");
+               }
+              }
+   </script>
